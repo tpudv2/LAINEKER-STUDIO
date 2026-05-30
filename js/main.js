@@ -7,6 +7,71 @@
   /* ---------- Project data ---------- */
   const PROJECTS = [
     {
+      id: 'vivienda-kati',
+      name: 'Vivienda Kati',
+      cat: 'Residencial',
+      loc: 'Vivienda unifamiliar · 2024',
+      cover: 'img/vivienda-kati/01.jpg',
+      facts: [
+        ['Tipología', 'Residencial · Obra nueva'],
+        ['Año', '2024'],
+        ['Programa', 'Vivienda unifamiliar'],
+        ['Alcance', 'Proyecto y diseño']
+      ],
+      gallery: [
+        { src: 'img/vivienda-kati/02.jpg', full: true },
+        { src: 'img/vivienda-kati/03.jpg', full: false },
+        { src: 'img/vivienda-kati/04.jpg', full: false }
+      ],
+      intro: 'Una vivienda unifamiliar de una planta, resuelta con líneas simples y volúmenes limpios. La fachada combina revoques en tonos neutros con un acceso jerarquizado por un volumen saliente, acompañado de un jardín delantero de bajo mantenimiento.',
+      body: 'Hacia el fondo, una galería cubierta con pérgola de madera articula el estar exterior —parrilla, comedor y un sector de descanso— con el jardín. En el interior, la cocina integrada, de líneas sobrias y materiales claros, aprovecha la luz natural y sostiene la atmósfera serena de todo el conjunto.'
+    },
+    {
+      id: 'vivienda-lm',
+      name: 'Vivienda LM',
+      cat: 'Residencial',
+      loc: 'Obra nueva · Anteproyecto · 2024',
+      cover: 'img/vivienda-lm/01.jpg',
+      facts: [
+        ['Tipología', 'Residencial · Obra nueva'],
+        ['Año', '2024'],
+        ['Programa', 'Vivienda unifamiliar'],
+        ['Alcance', 'Anteproyecto y proyecto · Etapa 1 (70 m²)']
+      ],
+      gallery: [
+        { src: 'img/vivienda-lm/02.jpg', full: true },
+        { src: 'img/vivienda-lm/03.jpg', full: true }
+      ],
+      intro: 'Un proyecto que acompañamos desde el anteproyecto, en un terreno de 10 × 25 m con el desafío de construir solo 70 m² como primera etapa. Atendiendo a la composición de la familia, proyectamos una vivienda de living-comedor y cocina integrados, lavadero, baño y un dormitorio.',
+      body: 'Generamos un espacio extra que funciona como escritorio y que en el futuro alojará la escalera hacia la planta alta. El deseo del cliente era algo sencillo y funcional, capaz de aprovechar la luz solar en todo momento. Trabajamos con líneas simples y proyectamos pensando en la segunda etapa, para que la ampliación futura sea lo más sencilla posible.'
+    },
+    {
+      id: 'reforma-pys',
+      name: 'Reforma P&S',
+      cat: 'Residencial',
+      loc: 'Ampliación y concepto abierto · 2024',
+      cover: 'img/reforma-pys/01.png',
+      facts: [
+        ['Tipología', 'Residencial · Reforma'],
+        ['Año', '2024'],
+        ['Programa', 'Ampliación living-comedor + cocina'],
+        ['Alcance', 'Reforma y ampliación integral']
+      ],
+      gallery: [
+        { src: 'img/reforma-pys/02.png', full: true },
+        { src: 'img/reforma-pys/03.png', full: false },
+        { src: 'img/reforma-pys/04.png', full: false },
+        { src: 'img/reforma-pys/05.png', full: true },
+        { src: 'img/reforma-pys/06.png', full: true },
+        { src: 'img/reforma-pys/07.png', full: true },
+        { src: 'img/reforma-pys/08.png', full: true },
+        { src: 'img/reforma-pys/09.png', full: false },
+        { src: 'img/reforma-pys/10.png', full: false }
+      ],
+      intro: 'En esta reforma se buscaba ganar más espacio: la vivienda pertenece a un barrio social, donde los ambientes son reducidos. Partimos de una ampliación del living-comedor y la cocina, creciendo hacia el frente para agrandar los ambientes e intervenir también en la fachada.',
+      body: 'Generamos un concepto abierto que integra cocina, comedor y estar en un único ambiente luminoso, y cerramos el espacio de lavadero para ordenarlo. A su vez propusimos cerrar el garage y ampliarlo hasta la línea municipal, ganando lugar para guardar dos autos.'
+    },
+    {
       id: 'casa-meconi',
       name: 'Casa Meconi',
       cat: 'Residencial',
@@ -126,114 +191,10 @@
       ],
       intro: 'En el plano original, la cocina tenía un lavadero separado por un muro. La reforma planteó integrar ambos ambientes en uno solo, ubicando la secadora y el lavarropas dentro de un mueble.',
       body: 'El objetivo de los clientes era una cocina cómoda para cocinar, con el máximo lugar de guardado posible y un desayunador al paso. Aunque el espacio era reducido, se logró una cocina luminosa, de líneas simples y muy funcional, con materiales que aportan elegancia y calidez, sumando estantes visibles, repisas y cuadros.'
-    },
-    {
-      id: 'atico-borne',
-      name: 'Ático Born',
-      cat: 'Residencial',
-      loc: 'Barcelona · 2024',
-      ratio: 'r-34',
-      year: '2024',
-      surface: '145 m²',
-      role: 'Reforma integral',
-      intro: 'Recuperación de un ático en el casco antiguo, donde la estructura original de vigas convive con una intervención contemporánea y discreta.',
-      body: 'Se liberó la envolvente para devolver protagonismo a la luz y a las vistas sobre los tejados del Born. El mobiliario, en gran parte de diseño propio, ordena el espacio sin cerrarlo.',
-      gallery: ['r-32','r-32','r-23','r-32']
-    },
-    {
-      id: 'restaurante-sal',
-      name: 'Restaurante Sal',
-      cat: 'Comercial',
-      loc: 'Girona · 2025',
-      ratio: 'r-54',
-      year: '2025',
-      surface: '210 m²',
-      role: 'Diseño de espacio + identidad espacial',
-      intro: 'Un restaurante de producto de proximidad donde la materia prima dicta también la materialidad del local.',
-      body: 'Barro, lino y maderas sin tratar dialogan con una iluminación de bajo nivel que dramatiza la experiencia de mesa. El proyecto se entendió como una continuación del relato gastronómico.',
-      gallery: ['r-32','r-23','r-32','r-23']
-    },
-    {
-      id: 'casa-duna',
-      name: 'Casa Duna',
-      cat: 'Residencial',
-      loc: 'Begur · 2023',
-      ratio: 'r-32',
-      year: '2023',
-      surface: '410 m²',
-      role: 'Arquitectura + interiorismo',
-      intro: 'Vivienda de costa que se mimetiza con el paisaje mediterráneo a través de la piedra local y los blancos rotos.',
-      body: 'La planta se escalona siguiendo la topografía para minimizar el impacto y maximizar las vistas al mar. Interior y exterior se funden mediante grandes paños de carpintería oculta.',
-      gallery: ['r-169','r-32','r-23','r-32']
-    },
-    {
-      id: 'oficinas-volta',
-      name: 'Oficinas Volta',
-      cat: 'Corporativo',
-      loc: 'Barcelona · 2024',
-      ratio: 'r-23',
-      year: '2024',
-      surface: '680 m²',
-      role: 'Espacio de trabajo',
-      intro: 'Sede corporativa pensada como un paisaje de trabajo flexible, lejos del lenguaje de oficina convencional.',
-      body: 'Acústica, biofilia y una gradación de espacios —del foco a la conversación— estructuran el programa. La madera y los textiles suavizan la escala industrial del edificio existente.',
-      gallery: ['r-32','r-32','r-23','r-32']
-    },
-    {
-      id: 'apartamento-eixample',
-      name: 'Piso Eixample',
-      cat: 'Residencial',
-      loc: 'Barcelona · 2023',
-      ratio: 'r-11',
-      year: '2023',
-      surface: '120 m²',
-      role: 'Reforma + interiorismo',
-      intro: 'Rehabilitación de un piso modernista respetando sus pavimentos hidráulicos y molduras originales.',
-      body: 'La intervención contemporánea se inserta como una pieza de mobiliario tonal que articula cocina y salón sin competir con el patrimonio existente.',
-      gallery: ['r-32','r-23','r-23','r-32']
-    },
-    {
-      id: 'hotel-ardal',
-      name: 'Hotel Ardal',
-      cat: 'Hospitality',
-      loc: 'Cadaqués · 2025',
-      ratio: 'r-34',
-      year: '2025',
-      surface: '1.200 m²',
-      role: 'Concepto + interiorismo',
-      intro: 'Un hotel boutique de catorce habitaciones que reinterpreta la artesanía del Empordà en clave contemporánea.',
-      body: 'Cada espacio común se concibió como una estancia doméstica a escala ampliada. La cal, la cerámica vidriada y el mimbre tejen una hospitalidad cálida y sin artificio.',
-      gallery: ['r-169','r-23','r-32','r-32']
-    },
-    {
-      id: 'casa-pati',
-      name: 'Casa Pati',
-      cat: 'Residencial',
-      loc: 'Sitges · 2024',
-      ratio: 'r-54',
-      year: '2024',
-      surface: '260 m²',
-      role: 'Arquitectura + interiorismo',
-      intro: 'Vivienda organizada en torno a un patio central que regula la luz y la temperatura de toda la casa.',
-      body: 'El patio actúa como corazón climático y social. Los materiales —travertino, encina y estuco— se eligieron por su comportamiento térmico y su capacidad de envejecer bien.',
-      gallery: ['r-32','r-23','r-32','r-23']
-    },
-    {
-      id: 'showroom-linea',
-      name: 'Showroom Línea',
-      cat: 'Comercial',
-      loc: 'Madrid · 2023',
-      ratio: 'r-32',
-      year: '2023',
-      surface: '340 m²',
-      role: 'Retail + escenografía',
-      intro: 'Espacio expositivo para una firma de mobiliario, planteado como una secuencia de atmósferas habitables.',
-      body: 'Una estructura modular de podios y cortinas permite reconfigurar el showroom según la colección. La neutralidad cromática deja que el producto sea el único protagonista.',
-      gallery: ['r-32','r-32','r-23','r-32']
     }
   ];
 
-  const CATS = ['Todos', 'Residencial', 'Comercial', 'Corporativo', 'Hospitality'];
+  const CATS = ['Todos', 'Residencial', 'Comercial'];
 
   /* ---------- Helpers ---------- */
   const $ = (s, c = document) => c.querySelector(s);
