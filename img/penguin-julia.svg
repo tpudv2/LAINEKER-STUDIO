@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" shape-rendering="crispEdges">
+  <!-- bg soft purple -->
+  <rect width="64" height="64" fill="#ede0f5"/>
+  <!-- ground -->
+  <rect x="0" y="54" width="64" height="10" fill="#f5eefa"/>
+  <rect x="0" y="52" width="64" height="2" fill="#c8a8e0"/>
+  <!-- body -->
+  <rect x="20" y="30" width="24" height="24" fill="#1a1a2e"/>
+  <!-- belly -->
+  <rect x="24" y="34" width="16" height="16" fill="#f5f5f0"/>
+  <!-- head -->
+  <rect x="22" y="18" width="20" height="14" fill="#1a1a2e"/>
+  <!-- headband with bow -->
+  <rect x="20" y="18" width="24" height="3" fill="#9b59b6"/>
+  <!-- bow left -->
+  <rect x="14" y="14" width="8" height="6" fill="#9b59b6"/>
+  <rect x="16" y="16" width="4" height="2" fill="#c39bd3"/>
+  <!-- bow right -->
+  <rect x="22" y="14" width="8" height="6" fill="#9b59b6"/>
+  <rect x="24" y="16" width="4" height="2" fill="#c39bd3"/>
+  <!-- bow center -->
+  <rect x="20" y="15" width="4" height="4" fill="#7d3c98"/>
+  <!-- blush -->
+  <rect x="22" y="27" width="4" height="3" fill="#f48fb1" opacity=".8"/>
+  <rect x="38" y="27" width="4" height="3" fill="#f48fb1" opacity=".8"/>
+  <!-- eyes determined/focused -->
+  <rect x="26" y="23" width="4" height="4" fill="white"/>
+  <rect x="34" y="23" width="4" height="4" fill="white"/>
+  <rect x="27" y="24" width="2" height="3" fill="#111"/>
+  <rect x="35" y="24" width="2" height="3" fill="#111"/>
+  <rect x="28" y="24" width="1" height="1" fill="white"/>
+  <rect x="36" y="24" width="1" height="1" fill="white"/>
+  <!-- focused eyebrow -->
+  <rect x="26" y="22" width="5" height="1" fill="#1a1a2e"/>
+  <rect x="33" y="22" width="5" height="1" fill="#1a1a2e"/>
+  <!-- beak -->
+  <rect x="29" y="30" width="6" height="3" fill="#f5a623"/>
+  <!-- determined smile -->
+  <rect x="29" y="32" width="6" height="1" fill="#e08800"/>
+  <rect x="28" y="33" width="2" height="1" fill="#e08800"/>
+  <rect x="34" y="33" width="2" height="1" fill="#e08800"/>
+  <!-- wings -->
+  <rect x="12" y="32" width="8" height="14" fill="#1a1a2e"/>
+  <rect x="44" y="32" width="8" height="14" fill="#1a1a2e"/>
+  <!-- checklist on clipboard -->
+  <rect x="44" y="26" width="12" height="18" fill="#fff"/>
+  <rect x="44" y="26" width="12" height="2" fill="#9b59b6"/>
+  <rect x="46" y="30" width="2" height="2" fill="#27ae60"/>
+  <rect x="49" y="31" width="5" height="1" fill="#bbb"/>
+  <rect x="46" y="33" width="2" height="2" fill="#27ae60"/>
+  <rect x="49" y="34" width="5" height="1" fill="#bbb"/>
+  <rect x="46" y="36" width="2" height="2" fill="#e74c3c"/>
+  <rect x="49" y="37" width="5" height="1" fill="#bbb"/>
+  <rect x="46" y="39" width="2" height="2" fill="#bbb"/>
+  <rect x="49" y="40" width="5" height="1" fill="#bbb"/>
+  <!-- feet -->
+  <rect x="24" y="52" width="8" height="4" fill="#f5a623"/>
+  <rect x="34" y="52" width="8" height="4" fill="#f5a623"/>
+</svg>
