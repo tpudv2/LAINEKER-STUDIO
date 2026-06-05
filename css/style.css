@@ -135,7 +135,7 @@ h1,h2,h3,h4{font-family:var(--serif);font-weight:300;line-height:1.02;letter-spa
 }
 .nav__links a::after{content:"";position:absolute;left:0;bottom:-2px;height:1px;width:0;
   background:var(--accent);transition:width .4s var(--ease)}
-.nav__links a:hover::after,.nav__links a[aria-current="page"]::after{width:100%}
+.nav__links a:not(.nav__cta):hover::after,.nav__links a[aria-current="page"]::after{width:100%}
 .nav__links a[aria-current="page"]{color:var(--accent)}
 .nav__links a.nav__cta{margin-left:.6rem;padding:1.05em 2.2em;color:var(--paper)}
 .nav.on-dark .nav__links a.nav__cta{color:var(--paper)}
