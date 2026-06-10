@@ -445,6 +445,7 @@ h1,h2,h3,h4{font-family:var(--serif);font-weight:300;line-height:1.02;letter-spa
 .contact__map{margin-top:2rem;border-radius:2px;overflow:hidden}
 .contact__map .ph{aspect-ratio:3/2}
 .contact__map .ph::after{opacity:.06}
+.contact__map iframe{aspect-ratio:3/2;height:auto;width:100%}
 
 /* =========================================================
    RESPONSIVE
